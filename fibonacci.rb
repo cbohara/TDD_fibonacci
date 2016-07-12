@@ -1,13 +1,13 @@
 def iterative_fib(input)
-	a = 0
-	b = 1
+  a = 0
+  b = 1
 
-	input.times do  
-		temporary = a 				
-		a = b								  				
-		b = temporary + b					
-	end
-	return a
+  input.times do  
+    temporary = a 				
+    a = b								  				
+    b = temporary + b					
+  end
+  return a
 end
 
 def recursive_fib(input)
